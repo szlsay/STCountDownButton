@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		773BEFF51C70562E0091A9CA /* STCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 773BEFF21C70562E0091A9CA /* STCountDownButton.m */; };
+		773BEFF61C70562E0091A9CA /* STCountDownConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 773BEFF41C70562E0091A9CA /* STCountDownConst.m */; };
 		777B1DCC1BFC607300E7734B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B1DCB1BFC607300E7734B /* main.m */; };
 		777B1DCF1BFC607300E7734B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B1DCE1BFC607300E7734B /* AppDelegate.m */; };
 		777B1DD21BFC607300E7734B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B1DD11BFC607300E7734B /* ViewController.m */; };
 		777B1DD51BFC607300E7734B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777B1DD31BFC607300E7734B /* Main.storyboard */; };
 		777B1DD71BFC607300E7734B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777B1DD61BFC607300E7734B /* Assets.xcassets */; };
 		777B1DDA1BFC607300E7734B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777B1DD81BFC607300E7734B /* LaunchScreen.storyboard */; };
-		777B1DE51BFC607300E7734B /* STCountDownButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B1DE41BFC607300E7734B /* STCountDownButtonDemoTests.m */; };
-		777B1DF01BFC607300E7734B /* STCountDownButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 777B1DEF1BFC607300E7734B /* STCountDownButtonDemoUITests.m */; };
-		77AD65171BFC616A00024515 /* STCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AD65161BFC616A00024515 /* STCountDownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		773BEFF11C70562E0091A9CA /* STCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCountDownButton.h; sourceTree = "<group>"; };
+		773BEFF21C70562E0091A9CA /* STCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCountDownButton.m; sourceTree = "<group>"; };
+		773BEFF31C70562E0091A9CA /* STCountDownConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCountDownConst.h; sourceTree = "<group>"; };
+		773BEFF41C70562E0091A9CA /* STCountDownConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCountDownConst.m; sourceTree = "<group>"; };
 		777B1DC71BFC607300E7734B /* STCountDownButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STCountDownButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		777B1DCB1BFC607300E7734B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		777B1DCD1BFC607300E7734B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,13 +50,7 @@
 		777B1DD91BFC607300E7734B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		777B1DDB1BFC607300E7734B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		777B1DE01BFC607300E7734B /* STCountDownButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STCountDownButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		777B1DE41BFC607300E7734B /* STCountDownButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCountDownButtonDemoTests.m; sourceTree = "<group>"; };
-		777B1DE61BFC607300E7734B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		777B1DEB1BFC607300E7734B /* STCountDownButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STCountDownButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		777B1DEF1BFC607300E7734B /* STCountDownButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCountDownButtonDemoUITests.m; sourceTree = "<group>"; };
-		777B1DF11BFC607300E7734B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77AD65151BFC616A00024515 /* STCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCountDownButton.h; sourceTree = "<group>"; };
-		77AD65161BFC616A00024515 /* STCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCountDownButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				777B1DC91BFC607300E7734B /* STCountDownButtonDemo */,
-				777B1DE31BFC607300E7734B /* STCountDownButtonDemoTests */,
-				777B1DEE1BFC607300E7734B /* STCountDownButtonDemoUITests */,
 				777B1DC81BFC607300E7734B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,29 +121,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		777B1DE31BFC607300E7734B /* STCountDownButtonDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				777B1DE41BFC607300E7734B /* STCountDownButtonDemoTests.m */,
-				777B1DE61BFC607300E7734B /* Info.plist */,
-			);
-			path = STCountDownButtonDemoTests;
-			sourceTree = "<group>";
-		};
-		777B1DEE1BFC607300E7734B /* STCountDownButtonDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				777B1DEF1BFC607300E7734B /* STCountDownButtonDemoUITests.m */,
-				777B1DF11BFC607300E7734B /* Info.plist */,
-			);
-			path = STCountDownButtonDemoUITests;
-			sourceTree = "<group>";
-		};
 		777B1DFD1BFC60E800E7734B /* STCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
-				77AD65151BFC616A00024515 /* STCountDownButton.h */,
-				77AD65161BFC616A00024515 /* STCountDownButton.m */,
+				773BEFF11C70562E0091A9CA /* STCountDownButton.h */,
+				773BEFF21C70562E0091A9CA /* STCountDownButton.m */,
+				773BEFF31C70562E0091A9CA /* STCountDownConst.h */,
+				773BEFF41C70562E0091A9CA /* STCountDownConst.m */,
 			);
 			path = STCountDownButton;
 			sourceTree = "<group>";
@@ -288,7 +267,8 @@
 			files = (
 				777B1DD21BFC607300E7734B /* ViewController.m in Sources */,
 				777B1DCF1BFC607300E7734B /* AppDelegate.m in Sources */,
-				77AD65171BFC616A00024515 /* STCountDownButton.m in Sources */,
+				773BEFF61C70562E0091A9CA /* STCountDownConst.m in Sources */,
+				773BEFF51C70562E0091A9CA /* STCountDownButton.m in Sources */,
 				777B1DCC1BFC607300E7734B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777B1DE51BFC607300E7734B /* STCountDownButtonDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777B1DF01BFC607300E7734B /* STCountDownButtonDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

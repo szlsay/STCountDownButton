@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  STCountDownButtonDemo
+//  STCountDownButton
 //
-//  Created by shentian on 15/11/18.
-//  Copyright © 2015年 ST. All rights reserved.
+//  Created by https://github.com/STShenZhaoliang/STCountDownButton on 16/2/14.
+//  Copyright © 2016年 https://github.com/STShenZhaoliang/STCountDownButton. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
